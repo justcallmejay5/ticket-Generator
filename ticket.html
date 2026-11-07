@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Coding Conf 2026 digital ticket.">
+    <title>Coding Conf 2026 | Your Ticket</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="index.html" class="brand" aria-label="Coding Conf home">
+            <img src="assets/images/logo-full.svg" alt="Coding Conf">
+        </a>
+    </header>
+
+    <main class="ticket-main">
+
+        <section class="success-heading">
+            <h1 id="successMessage">
+                Congratulations! Your ticket is ready.
+            </h1>
+
+            <p>
+                Your registration for Coding Conf 2026 has been completed
+                successfully. We look forward to seeing you!
+            </p>
+        </section>
+
+        <section class="ticket-card" aria-label="Conference registration ticket">
+
+            <div class="ticket-content">
+
+                <div class="ticket-brand">
+                    <img src="assets/images/logo-mark.svg" alt="">
+                    <div>
+                        <h2>Coding Conf</h2>
+                        <p>2026</p>
+                    </div>
+                </div>
+
+                <div class="ticket-event-details">
+                    <p>October 26, 2026</p>
+                    <p>Papine, Kgn</p>
+                </div>
+
+                <div class="attendee-information">
+
+                    <img
+                        id="ticketAvatar"
+                        src="assets/images/image-avatar.jpg"
+                        alt="Attendee profile picture"
+                        class="attendee-avatar"
+                    >
+
+                    <div class="attendee-details">
+                        <h3 id="ticketName">Attendee Name</h3>
+
+                        <a
+                            id="ticketGithub"
+                            href="https://github.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src="assets/images/icon-github.svg" alt="">
+                            <span id="githubUsername">@username</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="ticket-number">
+                <span>Ticket No.</span>
+                <strong id="ticketNumber">#00000</strong>
+            </div>
+
+        </section>
+
+        <div class="ticket-actions">
+            <button
+                type="button"
+                class="primary-button"
+                onclick="window.print()"
+            >
+                Print Ticket
+            </button>
+
+            <a href="index.html" class="secondary-button">
+                Back to Homepage
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Coding Conf. All rights reserved.</p>
+    </footer>
+
+    <script src="js/ticket.js"></script>
+
+</body>
+</html>
